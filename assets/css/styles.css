@@ -331,7 +331,35 @@ main {
   z-index: 5;
 }
 /*! === BLOG === */
+.blog{
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+}
 
+.blog_container{
+  display: grid;
+}
+
+.blog_metadata-description{
+  margin-bottom: 4rem;
+}
+
+.blog_post:first-of-type{
+  margin-bottom: 6rem;
+}
+
+.blog_post-image{
+  margin-bottom: 3rem;
+}
+
+.blog_post-image img{
+  margin-inline: auto;
+}
+
+.blog_post-title{
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
 /*! === FOOTER === */
 
 /*! === MEDIA QUERIES === */
